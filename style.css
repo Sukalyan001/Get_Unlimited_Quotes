@@ -79,20 +79,27 @@
         
         margin-top: 500px;
         min-width: 1000px;
-        min-height: 800px;
+        min-height: 300px;
         padding: 0 23px;
 
     }
 }
 @media (max-width:450px) {
 #quotes {
-    margin-top: 200px;
+    margin-top: 70px;
+    font-size: 30px;
+}
+}
+@media (max-width:450px) {
+#author{
+    font-size: 20px;
 }
 
 }
 @media (max-width:450px) {
-#quotes {
-    margin-top: 200px;
+    #tweeter #getnew {
+    margin-bottom: 30px;
+    width: 50px;
 }
 
 }
